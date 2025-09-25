@@ -1,0 +1,642 @@
+.bar {
+    width: 100%;
+    position: relative;
+    height: 46px;
+    text-align: left;
+    font-size: 16px;
+    color: #150c01;
+    font-family: Roboto;
+}
+
+
+.header a {
+    color: gray;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 13px;
+    left: 79px;
+    width: 448px;
+    height: 19px;
+}
+
+.header a:hover {
+    color: #DC780B;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.home {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-weight: 500;
+    color: #dc780b;
+}
+
+.about-us {
+    position: absolute;
+    top: 0px;
+    left: 84px;
+}
+
+.menu {
+    position: absolute;
+    top: 0px;
+    left: 188px;
+}
+
+.features {
+    position: absolute;
+    top: 0px;
+    left: 269px;
+}
+
+.contact-us {
+    position: absolute;
+    top: 0px;
+    left: 371px;
+}
+
+.booking {
+    position: absolute;
+    top: 0px;
+    left: 985px;
+    width: 155px;
+    height: 46px;
+    color: #fff;
+}
+
+.booking-color {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 5px;
+    background-color: #dc780b;
+    width: 155px;
+    height: 46px;
+}
+
+.booking-now a {
+    position: absolute;
+    top: 13px;
+    left: 30px;
+    color: #fff;
+}
+
+.booking-now a:hover {
+    color: black;
+}
+
+.logo {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 44px;
+    height: 43px;
+    object-fit: cover;
+}
+
+/*
+* Testimonial
+*/
+.testimonial {
+    width: 100%;
+    position: relative;
+    height: 476px;
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+    font-family: Roboto;
+}
+.testimonial-parent {
+    position: absolute;
+    top: 0px;
+    left: 23px;
+    width: 750px;
+    height: 145px;
+}
+.testimonial2 {
+    position: absolute;
+    top: 0px;
+    left: 307px;
+    letter-spacing: 0.2em;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #dc780b;
+    opacity: 0.7;
+}
+.making-food-great {
+    position: absolute;
+    top: 36px;
+    left: 136px;
+    font-size: 31.25px;
+    line-height: 24px;
+    font-family: Philosopher;
+    text-align: left;
+}
+.you-need-not {
+    position: absolute;
+    top: 83px;
+    left: 0px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 750px;
+    height: 62px;
+    opacity: 0.7;
+}
+.testimonial-child {
+    position: absolute;
+    height: 2.52%;
+    width: 0.75%;
+    top: 72.06%;
+    right: 0%;
+    bottom: 25.42%;
+    left: 99.25%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.testimonial-item {
+    position: absolute;
+    height: 2.52%;
+    width: 0.75%;
+    top: 72.27%;
+    right: 99.25%;
+    bottom: 25.21%;
+    left: 0%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    opacity: 0.5;
+}
+.group-parent {
+    position: absolute;
+    top: 310px;
+    left: 145px;
+    width: 506px;
+    height: 166px;
+}
+.group-wrapper {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 506px;
+    height: 166px;
+}
+.testimonial-you-need-not {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 506px;
+    height: 59px;
+}
+
+.augusta-w-reynoso-parent {
+    position: absolute;
+    top: 127px;
+    left: 169px;
+    width: 168px;
+    height: 39px;
+}
+.augusta-w-reynoso {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-transform: uppercase;
+}
+.uiux-designer {
+    position: absolute;
+    top: 25px;
+    left: 37px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+    opacity: 0.7;
+}
+.group-child {
+    position: absolute;
+    top: 79px;
+    left: 209px;
+    width: 88px;
+    height: 16px;
+}
+.testimonial-inner {
+    position: absolute;
+    top: 162.77px;
+    left: 315px;
+    width: 139.3px;
+    height: 139.3px;
+    object-fit: contain;
+}
+
+
+/*
+* Contact
+*/
+.contact {
+    width: 100%;
+    position: relative;
+    height: 448px;
+    text-align: center;
+    font-size: 16px;
+    color: #dc780b;
+    font-family: Roboto;
+}
+.contact-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #dc780b;
+    width: 1440px;
+    height: 448px;
+    opacity: 0.1;
+}
+.contact-parent {
+    position: absolute;
+    top: 115px;
+    left: 345px;
+    width: 750px;
+    height: 216px;
+}
+.contact2 {
+    position: absolute;
+    top: 0px;
+    left: 328px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.7;
+}
+.food-stalls-with {
+    position: absolute;
+    top: 34px;
+    left: 0px;
+    font-size: 31.25px;
+    line-height: 40.6px;
+    display: flex;
+    font-family: Philosopher;
+    color: #150c01;
+    align-items: center;
+    justify-content: center;
+    width: 749px;
+    height: 61px;
+}
+.group-parent {
+    position: absolute;
+    top: 141px;
+    left: 0px;
+    width: 750px;
+    height: 75px;
+    text-align: left;
+    color: #000;
+}
+.rectangle-parent {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 750px;
+    height: 75px;
+}
+.group-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 750px;
+    height: 75px;
+}
+.enter-your-message {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    line-height: 40.6px;
+    display: flex;
+    align-items: center;
+    width: 160px;
+    height: 11px;
+    opacity: 0.5;
+}
+.rectangle-group {
+    position: absolute;
+    top: 0px;
+    left: 594px;
+    width: 156px;
+    height: 75px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.group-item {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 10px;
+    background-color: #dc780b;
+    width: 156px;
+    height: 75px;
+}
+.send {
+    position: absolute;
+    top: 30px;
+    left: 57px;
+    line-height: 40.6px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 15px;
+}
+
+/*
+* Footer
+*/
+.footer {
+    width: 100%;
+    position: relative;
+    height: 429px;
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+    font-family: Roboto;
+}
+.footer-child {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #252525;
+    width: 1440px;
+    height: 429px;
+}
+.footer-item {
+    position: absolute;
+    height: 4.9%;
+    width: 1.46%;
+    top: 66.2%;
+    right: 20.69%;
+    bottom: 28.9%;
+    left: 77.85%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.home {
+    position: absolute;
+    top: 137px;
+    left: 443px;
+    font-size: 18px;
+    display: inline-block;
+    font-family: Philosopher;
+    width: 262px;
+    height: 17px;
+}
+.landingpage {
+    position: absolute;
+    top: 180px;
+    left: 443px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.documentation {
+    position: absolute;
+    top: 213px;
+    left: 443px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.referral-program {
+    position: absolute;
+    top: 246px;
+    left: 443px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.ui-ux {
+    position: absolute;
+    top: 279px;
+    left: 443px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.web-design {
+    position: absolute;
+    top: 312px;
+    left: 443px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.menu {
+    position: absolute;
+    top: 137px;
+    left: 735px;
+    font-size: 18px;
+    display: inline-block;
+    font-family: Philosopher;
+    width: 262px;
+    height: 17px;
+}
+.footer-landingpage {
+    position: absolute;
+    top: 180px;
+    left: 735px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.footer-documentation {
+    position: absolute;
+    top: 213px;
+    left: 735px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.footer-referral-program {
+    position: absolute;
+    top: 246px;
+    left: 735px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.footer-ui-ux {
+    position: absolute;
+    top: 279px;
+    left: 735px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.footer-web-design {
+    position: absolute;
+    top: 312px;
+    left: 735px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.wwwcompany-namecom-parent {
+    position: absolute;
+    top: 222px;
+    left: 150px;
+    width: 262px;
+    height: 73px;
+}
+.wwwcompany-namecom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.companynamegmailcom {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.phone-7-485-118-03-25 {
+    position: absolute;
+    top: 60px;
+    left: 0px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.logo-footer {
+    position: absolute;
+    top: 137px;
+    left: 150px;
+    width: 61px;
+    height: 60px;
+    object-fit: cover;
+}
+.company {
+    position: absolute;
+    top: 137px;
+    left: 1028px;
+    font-size: 18px;
+    display: inline-block;
+    font-family: Philosopher;
+    width: 262px;
+    height: 17px;
+}
+.landingpage2 {
+    position: absolute;
+    top: 180px;
+    left: 1028px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.documentation2 {
+    position: absolute;
+    top: 213px;
+    left: 1028px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.referral-program2 {
+    position: absolute;
+    top: 246px;
+    left: 1028px;
+    display: inline-block;
+    width: 262px;
+    height: 13px;
+    opacity: 0.7;
+}
+.footer-inner {
+    position: absolute;
+    height: 4.9%;
+    width: 1.46%;
+    top: 66.2%;
+    right: 27.15%;
+    bottom: 28.9%;
+    left: 71.39%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+}
+.group-icon {
+    position: absolute;
+    height: 4.9%;
+    width: 1.46%;
+    top: 66.2%;
+    right: 25%;
+    bottom: 28.9%;
+    left: 73.54%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+}
+.twitter-1-icon {
+    position: absolute;
+    top: 284px;
+    left: 1090px;
+    width: 21px;
+    height: 21px;
+}
+.footer-social-icons {
+    position: absolute;
+    left: 1028px;
+    top: 300px;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+}
+.social-icon {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 6px;
+    transition: box-shadow 0.2s, background 0.2s;
+    cursor: pointer;
+}
+.social-icon:hover {
+    box-shadow: 0 0 0 2px #fff, 0 0 8px #dc780b;
+    background: #222;
+}
+.group-icon, .twitter-1-icon, .footer-inner {
+    display: none;
+}
