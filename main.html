@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demo1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" />
@@ -26,29 +27,55 @@
 
     <!--Testimonial-->
     <div class="testimonial">
-        <div class="testimonial-parent">
-            <div class="testimonial2">Testimonial</div>
-            <b class="making-food-great">Making Food great again and again</b>
-            <div class="you-need-not">You need not only Just Food Stalls with Persons but also specialized equipment,
-                Skills to manage Customers, Effective Product catlogues etc to make your.</div>
+        <div class="testimonial-header">
+            <div class="testimonial-title">TESTIMONIAL</div>
+            <h2 class="testimonial-heading">Making Food great again and again</h2>
+            <p class="testimonial-description">You need not only Just Food Stalls with Persons but also specialized
+                equipment, Skills to manage Customers, Effective Product catlogues etc to make your.</p>
         </div>
-        <img class="testimonial-child" alt="">
-        <img class="testimonial-item" alt="">
-        <div class="group-parent">
-            <div class="group-wrapper">
-                <div class="group-wrapper">
-                    <div class="testimonial-you-need-not">You need not only Just Food Stalls with Persons but also
-                        specialized equipment, Skills to manage Customers, Effective Product catlogues etc very
-                        successful to make your.</div>
-                    <div class="augusta-w-reynoso-parent">
-                        <div class="augusta-w-reynoso">Augusta W. Reynoso</div>
-                        <div class="uiux-designer">UI&UX DeSIGNER</div>
+
+        <div class="testimonial-slider">
+            <button class="slider-btn prev-btn" onclick="prevSlide()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+
+            <div class="testimonial-content">
+                <div class="testimonial-avatar">
+                    <img src="Resources/Testimonial/e9415b329d640fb179f0f1679f4cee3ca1d647a9.jpg"
+                        alt="Augusta W. Reynoso">
+                </div>
+
+                <div class="testimonial-text">
+                    <p>You need not only Just Food Stalls with Persons but also specialized equipment, Skills to manage
+                        Customers, Effective Product catlogues etc very successful to make your.</p>
+                </div>
+
+                <div class="testimonial-rating">
+                    <div class="stars">
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star active">★</span>
+                        <span class="star">★</span>
                     </div>
                 </div>
+
+                <div class="testimonial-author">
+                    <div class="author-name">AUGUSTA W. REYNOSO</div>
+                    <div class="author-title">UI&UX DESIGNER</div>
+                </div>
             </div>
-            <img class="group-child" alt="">
+
+            <button class="slider-btn next-btn" onclick="nextSlide()">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
         </div>
-        <img class="testimonial-inner" alt="">
     </div>
 
     <!-- Contact -->
@@ -77,7 +104,6 @@
     <div class="footer">
         <div class="footer-child">
         </div>
-        <img class="footer-item" alt="">
         <b class="home">Home</b>
         <div class="landingpage">Landingpage</div>
         <div class="documentation">Documentation</div>
